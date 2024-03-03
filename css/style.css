@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.top-nav {
+  color: #666678;
+  background-color: #EEEEEE;
+}
+
+.email {
+  font-size: .7rem;
+}
+
+.phone {
+  font-size: .9rem;
+}
+
+.btn-eng {
+  background-color: #FFFFFF;
+}
+
+
+.email, .phone {
+  font-weight: bold;
+}
+
+.active-on:hover {
+  color: #0D6CB6
+}
+
+.hero-text > h1 {
+  font-size: 1.5rem;
+}
+
+.hero-text > h2 {
+  font-size: .9rem !important;
+  font-weight: bold;
+}
+
+.hero-text > p {
+  font-size: .6rem;
+}
+
+.explore-btn {
+  font-size: .8rem;
+}
+
+.bg-light-green {
+  background-color: #F3FCE2;
+  text-align: center;
+}
+
+.features {
+  position: absolute;
+  color: #FFFFFF;
+  bottom: 0;
+}
+
+.hunger-btn {
+  width: 100% !important;
+}
+
+.card-img-top {
+  opacity: .5;
+  
+}
+
+.overlay-content {
+  bottom: 0;
+  color: #FFFFFF;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.footer-bg {
+  background-image: url(../images/footer.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #a7a7a7;
+  opacity: .8;
+  color: #000000;
+}
+
+.social-icons img{
+  height: 3rem;
+  border-radius: 10px;
+}
+
+.social-icons button {
+  border-radius: 10px;
+}
+
+@media screen and (min-width:1200px) {
+  .nav-btns {
+    width: 30%;
+  }
+
+  .hero-text > h1 {
+    font-size: 2.3rem;
+  }
+  
+  .hero-text > h2 {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+  }
+  
+  .hero-text > p {
+    font-size: 1rem;
+  } 
+
+  .hero-img {
+    width:596px;
+  }
+
+  .bg-light-green {
+    width: 15% !important;
+  }
+}
